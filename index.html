@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <!--google style sheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--my style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header__s1">
+            <img src="./images/logo.svg" alt="tripadvisor">
+            <div class="header__s1-aibutton">
+                <i class="fa-solid fa-comment-nodes" style="color: rgb(0, 0, 0);"></i>
+                <p>plan with AI</p>
+            </div>
+        </div>
+        <div class="header__s2">
+            <p>Discover</p>
+            <p>Review</p>
+            <p>More</p>
+        </div>
+        <div class="header__s3">
+            <div class="header__s3-icon">
+                <i class="fa-solid fa-earth-americas" style="color: rgb(0, 0, 0);"></i>
+            </div>
+            <p>INR</p>
+            <div class="header__s3-signin">
+                <p>Sign In</p>
+            </div>
+        </div>
+    </div>
+    <!--navbar-->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="alternate1">Where to? </h1>
+            <h1 class="alternate2">Stay Somewhere great</h1>
+            <h1 class="alternate3">Do something fun</h1>
+            <h1 class="alternate4">Find places to eat</h1>
+        </div>
+        <div class="navbar__s2">
+            <ul>
+                <li><i class="fa-solid fa-house" style="color: rgb(0, 0, 0);"></i>Search All</li>
+                <li class="hotels"><i class="fa-solid fa-hotel" style="color: rgb(0, 0, 0);"></i>Hotels</li>
+                <li class="todo"><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0);"></i>Things to Do</li>
+                <li class="restaurants"><i class="fa-solid fa-utensils" style="color: rgb(0, 0, 0);"></i>Restaurants</li>
+                <li class="holiday"><i class="fa-regular fa-house" style="color: rgb(0, 0, 0);"></i>Holiday Homes</li>
+            </ul>
+        </div>
+        <div class="searchbar">
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+            </div>
+            <input type="text" placeholder="Places to go, Things to do, hotels">
+            <button>search</button>
+        </div>
+        <div class="billboard">
+            <div class="billboard-background">
+                <img src="./images/adventure.jpg" alt="none">
+                <span class="billboard__tag">@copyninja07</span>
+            </div>
+            <div class="billboard__text">
+                <h1>Find things to do for everything you're into</h1>
+                <p>Browse 400,000+ experiences and book with us</p>
+                <button>Book now</button>
+            </div>
+        </div>
+    </div>
+    <div class="categories__heading">
+        <h4>Find things to do by intrest</h4>
+        <p>Whatever you're into, We've got it</p>
+    </div>
+    <div class="container">
+        <div class="categories__card">
+            <img src="./images/outdoors.jpg" alt="image">
+            <h3>Adventure</h3>
+        </div>
+        <div class="categories__card">
+            <img src="./images/food.jpg" alt="image">
+            <h3>Food</h3>
+        </div>
+        <div class="categories__card">
+            <img src="./images/culture.jpg" alt="image">
+            <h3>Culture</h3>
+        </div>
+        <div class="categories__card">
+            <img src="./images/water.jpg" alt="image">
+            <h3>Water</h3>
+        </div>
+    </div>
+    <div class="Experience">
+        <h4>Explore experiences near Chennai (Madras)</h4>
+        <p class="experience__desc">Can’t-miss picks near you</p>
+    </div>
+    <div class="experience__container">
+        <div class="experince__card">
+            <img src="./images/mahabalipuram.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Mahabalipuram tour by Tourism Ministry approved company</h3>
+            <span>4.0 🟢🟢🟢🟢 170</span>
+            <p>from ₹11,021 per adult</p>
+        </div>
+        <div class="experince__card">
+            <img src="./images/chennai.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Pondicherry day trip from Chennai by Wonder tours</h3>
+            <span>5.0 🟢🟢🟢🟢🟢 546</span>
+            <p>from ₹16,197 per adult</p>
+        </div>
+        <div class="experince__card">
+            <img src="./images/localfood.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Chennai Market Tour & Cooking Class in a Local Home with Meena</h3>
+            <span>5.0 🟢🟢🟢🟢🟢 250</span>
+            <p>from ₹5,175 per adult</p>
+        </div>
+        <div class="experince__card">
+            <img src="./images/bird.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Chennai, Guided Birding And Birding Photo Trip With Spot Scope, 2 to 3 Hours</h3>
+            <span>4.0 🟢🟢🟢🟢🟢 360</span>
+            <p>from ₹6,000 per adult</p>
+        </div>
+    </div>
+    <div class="suggestions">
+        <h4>You might like these</h4>
+        <p class="suggestions__desc">More things to do in Chennai (Madras)</p>
+    </div>
+    <div class="suggestions__container">
+        <div class="suggestions__card">
+            <img src="./images/car.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder</h3>
+            <span>4.0 🟢🟢🟢🟢 170</span>
+        </div>
+        <div class="suggestions__card">
+            <img src="./images/kanchipuram.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Mahabalipuram & Kanchipuram by tourism ministry approved company</h3>
+            <span>4.5 🟢🟢🟢🟢 250</span>
+        </div>
+        <div class="suggestions__card">
+            <img src="./images/bazzar.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Shopping and Bazaar trail in Chennai</h3>
+            <span>5.0 🟢🟢🟢🟢🟢 33</span>
+        </div>
+        <div class="suggestions__card">
+            <img src="./images/temple.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Full-Day Private Tour to the Kanchipuram Temples from Chennai</h3>
+            <span>5.0 🟢🟢🟢🟢🟢 300</span>
+        </div>
+    </div>
+    <div class="sponserboard">
+        <div class="sponser-background">
+            <img src="./images/sponser.jpg" alt="none">
+        </div>
+        <div class="sponser__text">
+            <div class="sponser__text-s1">
+                <img src="./images/logosmall.svg" alt="img">
+                <h5>Tripadvisor Foundation</h5>
+            </div>
+            <h3>Show some love to small businesses</h3>
+            <p>Donate to Kiva.org today to provide loans to local entrepreneurs and the Tripadvisor Foundation will
+                match it, up to $150,000 USD collectively. Terms apply.</p>
+            <button>Donate now</button>
+        </div>
+    </div>
+    <div class="beach">
+        <h4>Beyond the beach</h4>
+        <p class="beach__desc">Tropical experiences to level up your trip</p>
+    </div>
+    <div class="beach__container">
+        <div class="beach__card">
+            <img src="./images/beach01.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Marina Beach walking tour by tourism ministry approved company</h3>
+            <span>5.0 🟢🟢🟢🟢🟢 195</span>
+            <p>From ₹4,791.89 per adult</p>
+        </div>
+        <div class="beach__card">
+            <img src="./images/beach02.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Morning Half Day Cruise from Providenciales with Snorkeling and Iguana Island</h3>
+            <span>4.7 🟢🟢🟢🟢🟢 350</span>
+            <p>from ₹15,267 per adult</p>
+        </div>
+        <div class="beach__card">
+            <img src="./images/beach03.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Full-Day Bora Bora Lagoon Cruise Including Snorkeling with Sharks and Stingrays</h3>
+            <span>4.0 🟢🟢🟢🟢 450</span>
+            <p>from ₹12,974 per adult</p>
+        </div>
+        <div class="beach__card">
+            <img src="./images/beach04.jpg" alt="image">
+            <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+            <h3>Aruba Atlantis Submarine Tour</h3>
+            <span>4.0 🟢🟢🟢🟢🟢 200</span>
+            <p>from ₹10,734 per adult</p>
+        </div>
+    </div>
+    <div class="places__heading">
+        <h4>Find things to do by intrest</h4>
+        <p>Whatever you're into, We've got it</p>
+    </div>
+    <div class="places__container">
+        <div class="places__card">
+            <img src="./images/tokyo.jpg" alt="image">
+            <h3>Tokyo,Japan</h3>
+        </div>
+        <div class="places__card">
+            <img src="./images/alaska.jpg" alt="image">
+            <h3>Alaska,USA</h3>
+        </div>
+        <div class="places__card">
+            <img src="./images/leh.jpg" alt="image">
+            <h3>Leh,Ladakh</h3>
+        </div>
+        <div class="places__card">
+            <img src="./images/saopaulo.jpg" alt="image">
+            <h3>Soupaulo,Brasil</h3>
+        </div>
+    </div>
+    <div class="ads">
+        <div class="ads-background">
+            <img src="./images/ads.jpg" alt="none">
+        </div>
+        <div class="ads__text">
+            <div class="ads__text-s1">
+                <img src="./images/logosmall.svg" alt="img">
+                <h5>Sponsored by Wanderlab</h5>
+            </div>
+            <div class="ads__text-s2">
+                <h3>Watch The Wanderer</h3>
+                <p>Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video</p>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </div>
+    <div class="event">
+        <div class="event__s1">
+            <img src="./images/logomid.svg" alt="img">
+            <h1>Travellers' Choice Awards Best of the Best</h1>
+            <h6>Among our top 1% of places, stays, eats, and experiences—decided by you.</h6>
+            <button>See the Winners</button>
+        </div>
+        <div class="event-background">
+            <img src="./images/event.jpg" alt="none">
+        </div>
+    </div>
+     <footer>
+        <div class="footer__menus">
+            <div class="main__menu">
+                <div class="menu-one">
+                    <ul>
+                        <li>About Tripadvisor</li>
+                        <li>About Us</li> 
+                        <li>Press</li>
+                        <li>Resources and Policies</li> 
+                        <li>Careers</li>
+                        <li>Trust & Safety</li> 
+                        <li>Contact us</li> 
+                        <li>Accessibility Statement</li>  
+                    </ul>   
+                </div>
+
+                <div class="menu-two">
+                    <ul>
+                        <li>Explore</li>
+                        <li>Write a review</li>
+                        <li>Add a Place</li>
+                        <li>Join </li>
+                        <li>Travellers' Choice</li>
+                        <li>GreenLeaders</li>
+                        <li>Help Centre</li>
+                        <li>Travel Articles</li>
+                    </ul>
+                </div>
+                
+                <div class="menu-three">
+                    <ul>
+                        <li>Do Business With Us</li>
+                        <li>Owners & DMO/CVB</li>
+                        <li>Business Advantage</li>
+                        <li>Sponsored Placements</li>
+                        <li>Access our Content API</li>
+                        <li>Get The App</li>
+                        <li>iPhone App</li>
+                        <li>Android App</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sites">
+                <p>Tripadvisor Sites</p>
+                <p>Book tours and attraction tickets on Viator</p>
+            </div>
+        </div>
+        <div class="footer__copy-right">
+            <div class="copy-right-1">
+                <img src="./images/logo.svg" alt="Logo" width="38">
+                <p>&copy; Tripadvisor LLC All rights reserved.</p>
+            </div>
+            <div class="copy-right-2">
+                <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                <i class="fa-brands fa-pinterest" style="color: #000000;"></i>
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
